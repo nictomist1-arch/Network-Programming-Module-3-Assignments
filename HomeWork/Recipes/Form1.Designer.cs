@@ -13,8 +13,6 @@
             base.Dispose(disposing);
         }
 
-        #region Код, созданный конструктором форм Windows
-
         private void InitializeComponent()
         {
             this.tabs = new System.Windows.Forms.TabControl();
@@ -360,8 +358,6 @@
             this.tabs.ResumeLayout(false);
             this.ResumeLayout(false);
         }
-
-        #endregion
 
         private System.Windows.Forms.TabControl tabs;
         private System.Windows.Forms.TabPage serverTab;
