@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <HomeworkSdkCache>$(LOCALAPPDATA)\Codex\WindowsSdk</HomeworkSdkCache>
+    <HomeworkSdkHeaders>$(HomeworkSdkCache)\microsoft.windows.sdk.cpp.10.0.28000.2957</HomeworkSdkHeaders>
+    <HomeworkSdkLibraries>$(HomeworkSdkCache)\microsoft.windows.sdk.cpp.x64.10.0.28000.2957</HomeworkSdkLibraries>
+  </PropertyGroup>
+  <Import Project="$(HomeworkSdkHeaders)\build\native\Microsoft.Windows.SDK.cpp.props" Condition="Exists('$(HomeworkSdkHeaders)\build\native\Microsoft.Windows.SDK.cpp.props')" />
+</Project>

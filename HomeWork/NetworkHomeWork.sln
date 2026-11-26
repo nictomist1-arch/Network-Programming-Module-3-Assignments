@@ -1,0 +1,42 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipher", "CaesarCipher\CaesarCipher.csproj", "{1001309A-CEBA-454E-88FA-C59182584BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyRates", "CurrencyRates\CurrencyRates.csproj", "{294AAE01-D4C7-4EEF-82BF-2574A84AF7F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipes", "Recipes\Recipes.csproj", "{CCBBF1C9-7AB7-49E5-9996-7809A5CAA35B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServer", "RockPaperScissors\GameServer.vcxproj", "{D923B1D1-1600-45AD-ACDE-E70B9E2F1022}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameClient", "RockPaperScissors\GameClient.vcxproj", "{02B50E07-1C5A-425F-9BA7-32A435424183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1001309A-CEBA-454E-88FA-C59182584BFC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1001309A-CEBA-454E-88FA-C59182584BFC}.Debug|x64.Build.0 = Debug|Any CPU
+		{1001309A-CEBA-454E-88FA-C59182584BFC}.Release|x64.ActiveCfg = Release|Any CPU
+		{1001309A-CEBA-454E-88FA-C59182584BFC}.Release|x64.Build.0 = Release|Any CPU
+		{294AAE01-D4C7-4EEF-82BF-2574A84AF7F5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{294AAE01-D4C7-4EEF-82BF-2574A84AF7F5}.Debug|x64.Build.0 = Debug|Any CPU
+		{294AAE01-D4C7-4EEF-82BF-2574A84AF7F5}.Release|x64.ActiveCfg = Release|Any CPU
+		{294AAE01-D4C7-4EEF-82BF-2574A84AF7F5}.Release|x64.Build.0 = Release|Any CPU
+		{CCBBF1C9-7AB7-49E5-9996-7809A5CAA35B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CCBBF1C9-7AB7-49E5-9996-7809A5CAA35B}.Debug|x64.Build.0 = Debug|Any CPU
+		{CCBBF1C9-7AB7-49E5-9996-7809A5CAA35B}.Release|x64.ActiveCfg = Release|Any CPU
+		{CCBBF1C9-7AB7-49E5-9996-7809A5CAA35B}.Release|x64.Build.0 = Release|Any CPU
+		{D923B1D1-1600-45AD-ACDE-E70B9E2F1022}.Debug|x64.ActiveCfg = Debug|x64
+		{D923B1D1-1600-45AD-ACDE-E70B9E2F1022}.Debug|x64.Build.0 = Debug|x64
+		{D923B1D1-1600-45AD-ACDE-E70B9E2F1022}.Release|x64.ActiveCfg = Release|x64
+		{D923B1D1-1600-45AD-ACDE-E70B9E2F1022}.Release|x64.Build.0 = Release|x64
+		{02B50E07-1C5A-425F-9BA7-32A435424183}.Debug|x64.ActiveCfg = Debug|x64
+		{02B50E07-1C5A-425F-9BA7-32A435424183}.Debug|x64.Build.0 = Debug|x64
+		{02B50E07-1C5A-425F-9BA7-32A435424183}.Release|x64.ActiveCfg = Release|x64
+		{02B50E07-1C5A-425F-9BA7-32A435424183}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
